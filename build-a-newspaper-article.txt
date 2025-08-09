@@ -1,0 +1,80 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="newspaper">
+      <div class="name"> Daily Universe</div>
+      <div class="date">August 8th, 20025</div>
+      <div class="headline">Evan Smith: The Greatest Rematch Player of All Time?</div>
+      <div class="sub-headline">He can shoot, he can pass, and he even can defend</div>
+      <div class="author">By Spencer Fordstrum</div>
+      <div class="text">In the world of competitive rematches, Evan Smith stands above the rest. His dribbling is nothing short of mesmerizing—gliding past defenders like they’re traffic cones in a parking lot. With a ball at his feet, he controls the tempo of the game, leaving opponents second-guessing their every move. Each touch feels calculated, yet effortless, making him the ultimate threat in tight situations.</div>
+      <div class="text">But Evan isn’t just about flashy footwork—his passing is equally lethal. Threading pinpoint balls through impossibly small gaps, he sets up teammates with the precision of a surgeon and the generosity of a best friend. Combined with his razor-sharp game sense and flawless mechanics, he elevates everyone around him, turning every match into a masterclass in teamwork and skill.</div>
+    </main>
+
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+html{
+  font-size:24px;
+}
+.newspaper{
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  background: tan;
+  height: auto;
+  width: 500px;
+  padding:20px
+}
+.name{
+  font-size: 2rem;
+  font-family: Times New Roman, serif;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  margin-bottom:10px
+}
+.date{
+  font-size:0.5rem;
+  text-align: right
+}
+.headline{
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+.sub-headline{
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 10px;
+
+}
+.author{
+  font-weight: bold;
+  text-transform: uppercase;
+  text-style: italic;
+}
+.text{
+  line-height: 2em;
+  text-indent: 20px;
+}
+
+.text::first-letter{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+** end of styles.css **
+
